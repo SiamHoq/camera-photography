@@ -45,7 +45,7 @@
     font-size: 16px;
     padding: 10px 24px;
     background-color: rgba(224, 44, 109, 1);
-    border-radius: 41px;
+    /* border-radius: 41px; */
     border: none;
 }
 
@@ -101,10 +101,12 @@
     margin: 196px;
     justify-content: center;
     align-items: center;
+
 }
 
 .Collection-title{
     font-size: 28px;
+    text-align: center;
     /* align-items: center; */
 }
 
@@ -117,8 +119,8 @@
 
 .card{
     padding: 17px 14px;
-    border: 2px solid black;
-    box-shadow: 2px 2px 2px 2px;
+    border: 1px solid rgba(34, 31, 31, 0.278);
+    box-shadow: 1px 1px 1px 1px;
     margin: 30px;
 }
 
