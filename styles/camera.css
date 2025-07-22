@@ -1,19 +1,8 @@
 
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+.manrope{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -45,66 +34,6 @@
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
 }
 
 /* // shared style// */
@@ -164,4 +93,78 @@
     gap: 61px;
     padding: 40px 0px;
     margin-top: 140px
+}
+
+/* ///  studio Collection title/// */
+
+.studio-collection{
+    margin: 196px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Collection-title{
+    font-size: 28px;
+    /* align-items: center; */
+}
+
+.card-mom{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 17px 14px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px;
+    margin: 30px;
+}
+
+/* //Advertize section // */
+
+.btn{
+    border-radius: none;
+}
+.adv-mom{
+    justify-content: center;
+}
+
+.adv-boss{
+    justify-content: center;
+    gap: 96px;
+}
+
+.adv-text{
+    font-size: 16px;
+    color: rgba(108, 108, 108, 1);
+}
+
+.adv-title{
+    font-size: 38px;
+    
+}
+
+/* ///footer section style /// */
+
+.pokemon{
+    background-color: rgba(10, 8, 38, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-top: 145px;
+}
+
+.design{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 589px;
+    
+}
+
+.footer-h3{
+    font-size: 24px;
+}
+
+.footer-p1{
+    font-size: 14px;
 }
