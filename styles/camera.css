@@ -14,7 +14,8 @@
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
+  /* font-size: 20px; */
   font-style: normal;
 }
 .manrope{
@@ -56,7 +57,7 @@
 
 /* // shared style// */
 .font-reg{
-    font-size: 24px;
+    font-size: 20px;
 }
 .font-medium{
     font-size: 14px;
@@ -85,6 +86,10 @@
 .nav-list a{
     text-decoration: none;
     color: rgba(58, 58, 58, 1);
+}
+
+.space{
+    padding-left: 8px;
 }
 
 .navbar{
@@ -141,6 +146,7 @@
 
 .studio-color{
     color: rgba(24, 25, 31, 1);
+    font-size: 28px;
 }
 
 .money-color{
