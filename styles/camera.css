@@ -1,4 +1,22 @@
 
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: rgba(94, 99, 102, 1);
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-color{
+    color: rgba(120, 120, 133, 1);
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 .manrope{
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
@@ -37,6 +55,12 @@
 }
 
 /* // shared style// */
+.font-reg{
+    font-size: 24px;
+}
+.font-medium{
+    font-size: 14px;
+}
 .flex{
     display: flex;
 }
@@ -45,24 +69,37 @@
     font-size: 16px;
     padding: 10px 24px;
     background-color: rgba(224, 44, 109, 1);
+    color: white;
     /* border-radius: 41px; */
     border: none;
 }
 
 /* // style start// */
-
+.nav-color{
+    color: rgba(58, 58, 58, 1);
+}
 .nav-list {
     font-size: 16px;
     justify-content: space-around;
 }
 .nav-list a{
     text-decoration: none;
-    color: black;
+    color: rgba(58, 58, 58, 1);
 }
 
 .navbar{
     justify-content: space-around;
     align-items: center;
+}
+
+.icon-fa{
+    padding-top: 5px;
+    
+}
+
+.icon-faw{
+    padding-top: 5px;
+    padding-left: 30px;
 }
 
 .list-item{
@@ -72,6 +109,11 @@
 }
 
 /* ///banner section style/// */
+
+.banner-color{
+    color: rgba(58, 58, 58, 1);
+    
+}
 
 .banner-title{
     font-size: 52px;
@@ -97,6 +139,14 @@
 
 /* ///  studio Collection title/// */
 
+.studio-color{
+    color: rgba(24, 25, 31, 1);
+}
+
+.money-color{
+    color: rgba(0, 0, 0, 0.87);
+}
+
 .studio-collection{
     margin: 196px;
     justify-content: center;
@@ -120,7 +170,7 @@
 .card{
     padding: 17px 14px;
     border: 1px solid rgba(34, 31, 31, 0.278);
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     margin: 30px;
 }
 
@@ -128,6 +178,7 @@
 
 .btn{
     border-radius: none;
+    color: white;
 }
 .adv-mom{
     justify-content: center;
@@ -169,4 +220,10 @@
 
 .footer-p1{
     font-size: 14px;
+}
+
+.icons img{
+    height: 8%;
+    width: 8%;
+    filter: grayscale(100%);
 }
